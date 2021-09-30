@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { ReceipeComponent } from './receipe/receipe.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
 
 
 
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     HeaderComponent,
     ReceipeComponent,
-    HomeComponent
+    HomeComponent,
+    IngredientsComponent
     
   ],
   imports: [
