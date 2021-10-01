@@ -31,4 +31,17 @@ export class RecipeService {
     return this.http.get<any>(sourceUrl) + node_id
   }
 
+
+  getIngredients():Observable<any> {
+
+
+    let url = "http://localhost:5000/ingredients"
+    
+    return this.http.get<any>(url)
+
+  }
+
+
+
+
 }

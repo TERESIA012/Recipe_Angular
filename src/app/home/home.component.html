@@ -5,14 +5,14 @@
         <div class="col-md-3 col-sm-6" *ngFor="let d of data">
             <div class="card text-center mt-3">
                 <div class="card-block">
-                    <img src="{{d.imageUrl}}" alt="" height="300px" class="img-fluid">
+                    <img src="{{d.imageUrl}}" alt="" height="300px" class="img-fluid"><br><br>
                     <div class="card-title">
-                        <h6>{{d.name}}</h6>
-                    </div>
+                        <h6 style="font-size:large;font-weight:700">{{d.name}}</h6>
+                    </div><br>
                     <div class="class-text">
-                        {{d.description}}<br>
-                        {{d.cook_time}}<br>
-                        {{d.instructions}}
+                        Description: {{d.description}}<br><br>
+                        Time:{{d.cook_time}} mins<br><br>
+                        Instructions:{{d.instructions}}
                     </div>
                     <a href="#"></a>
                     <a style="margin-top:10px;" href="{{d.originalUrl}}" class="btn btn-warning mb-3">See More</a>
